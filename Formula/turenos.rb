@@ -1,7 +1,6 @@
 class Turenos < Formula
   desc "Batteries-included security engineering workbench"
   homepage "https://github.com/turenlabs/turenos"
-  version "1.0.8"
   license "MIT"
   on_macos do
     on_arm do
