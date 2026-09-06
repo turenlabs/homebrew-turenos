@@ -3,6 +3,7 @@ class Turenos < Formula
   homepage "https://github.com/turenlabs/turenos"
   version "1.0.8"
   license "MIT"
+  depends_on macos: :required
 
   on_macos do
     on_arm do
