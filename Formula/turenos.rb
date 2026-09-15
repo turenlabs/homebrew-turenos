@@ -4,23 +4,23 @@ class Turenos < Formula
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/turenlabs/turenos/releases/download/v1.0.20/forge-darwin-arm64.zip"
-      sha256 "2f871be69549ea022ed094aa8f6adf0ac78b29bf29b38936f8bb977693225216"
+      url "https://github.com/turenlabs/turenos/releases/download/v1.0.21/forge-darwin-arm64.zip"
+      sha256 "5f706be73ebcf9cd0ac96daf113b9247d8a13025d3eab2f03791fecfb5cb26ad"
     end
     on_intel do
-      url "https://github.com/turenlabs/turenos/releases/download/v1.0.20/forge-darwin-x64-baseline.zip"
-      sha256 "5eae411febb263a68fb662ccff714de693ad34a45505545687ba974c26de853d"
+      url "https://github.com/turenlabs/turenos/releases/download/v1.0.21/forge-darwin-x64-baseline.zip"
+      sha256 "ddd013b26eddece187625474226c8cb292626ba0a1e537863fe1e6a7731d1c01"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/turenlabs/turenos/releases/download/v1.0.20/forge-linux-arm64.tar.gz"
-      sha256 "180a8203c02ffc6e2f3f2d258b6b8fdec1c3d14811ad17d8d620e022a44e70d4"
+      url "https://github.com/turenlabs/turenos/releases/download/v1.0.21/forge-linux-arm64.tar.gz"
+      sha256 "4b382107a3e8000fbde5d7ed8e5d98e801247c0acaa65e2adbe2a76bec5226de"
     end
     on_intel do
-      url "https://github.com/turenlabs/turenos/releases/download/v1.0.20/forge-linux-x64-baseline.tar.gz"
-      sha256 "72a91bf137c3b2902436362fc0440b0c3ef22576cdcf631cc10948a1d1693585"
+      url "https://github.com/turenlabs/turenos/releases/download/v1.0.21/forge-linux-x64-baseline.tar.gz"
+      sha256 "2cb826f2f2316f8ab44a2fae29a212ca6882e203e1acdb03199e71ed8d96ecfa"
     end
   end
 
